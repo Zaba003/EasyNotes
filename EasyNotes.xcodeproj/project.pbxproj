@@ -7,18 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6BAF848DC3EB541A249CE95E /* Pods_EasyNotes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04A8DB80040882A2DC93A78E /* Pods_EasyNotes.framework */; };
 		D43A1C5C26FCBC550014851B /* EasyNotesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43A1C5B26FCBC550014851B /* EasyNotesApp.swift */; };
 		D43A1C5E26FCBC550014851B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43A1C5D26FCBC550014851B /* ContentView.swift */; };
 		D43A1C6026FCBC560014851B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D43A1C5F26FCBC560014851B /* Assets.xcassets */; };
 		D43A1C6326FCBC560014851B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D43A1C6226FCBC560014851B /* Preview Assets.xcassets */; };
+		D43A1C6A26FCC0A90014851B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D43A1C6926FCC0A90014851B /* GoogleService-Info.plist */; };
+		D43A1C7226FCE1310014851B /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43A1C7126FCE1310014851B /* EditView.swift */; };
+		D43A1C7526FCE33B0014851B /* FirebaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43A1C7426FCE33B0014851B /* FirebaseService.swift */; };
+		D43A1C7A26FCEEEB0014851B /* FirebaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43A1C7926FCEEEB0014851B /* FirebaseModel.swift */; };
+		D43A1C8F270073700014851B /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D43A1C91270073700014851B /* Localizable.strings */; };
+		D43A1C9527007AD00014851B /* EasyNotes-InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D43A1C9327007AD00014851B /* EasyNotes-InfoPlist.strings */; };
+		D45D9E3C270390F4006E1B6A /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45D9E3B270390F4006E1B6A /* TextView.swift */; };
+		D45D9EF32703A374006E1B6A /* MarkupEditor in Frameworks */ = {isa = PBXBuildFile; productRef = D45D9EF22703A374006E1B6A /* MarkupEditor */; };
+		D4AA2C352701E12F0055B60B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D4AA2C332701E12F0055B60B /* InfoPlist.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04A8DB80040882A2DC93A78E /* Pods_EasyNotes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EasyNotes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		41DBB13E06980588658EC8DF /* Pods-EasyNotes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyNotes.release.xcconfig"; path = "Target Support Files/Pods-EasyNotes/Pods-EasyNotes.release.xcconfig"; sourceTree = "<group>"; };
+		94649EF714A0E1F021FE36EE /* Pods-EasyNotes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyNotes.debug.xcconfig"; path = "Target Support Files/Pods-EasyNotes/Pods-EasyNotes.debug.xcconfig"; sourceTree = "<group>"; };
 		D43A1C5826FCBC550014851B /* EasyNotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyNotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D43A1C5B26FCBC550014851B /* EasyNotesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyNotesApp.swift; sourceTree = "<group>"; };
 		D43A1C5D26FCBC550014851B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D43A1C5F26FCBC560014851B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D43A1C6226FCBC560014851B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D43A1C6926FCC0A90014851B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D43A1C7126FCE1310014851B /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; usesTabs = 0; wrapsLines = 0; };
+		D43A1C7426FCE33B0014851B /* FirebaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseService.swift; sourceTree = "<group>"; };
+		D43A1C7926FCEEEB0014851B /* FirebaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseModel.swift; sourceTree = "<group>"; };
+		D43A1C90270073700014851B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		D43A1C92270073830014851B /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		D43A1C9427007AD00014851B /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = "ru.lproj/EasyNotes-InfoPlist.strings"; sourceTree = "<group>"; };
+		D45D9E3B270390F4006E1B6A /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
+		D45D9EEF2703A1E0006E1B6A /* MarkupEditor-main */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "MarkupEditor-main"; path = "EasyNotes/MarkupEditor-main"; sourceTree = "<group>"; };
+		D4AA2C3227018B2F0055B60B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		D4AA2C342701E12F0055B60B /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +50,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BAF848DC3EB541A249CE95E /* Pods_EasyNotes.framework in Frameworks */,
+				D45D9EF32703A374006E1B6A /* MarkupEditor in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -35,8 +61,13 @@
 		D43A1C4F26FCBC550014851B = {
 			isa = PBXGroup;
 			children = (
+				D45D9EEE2703A1E0006E1B6A /* Packages */,
+				D43A1C9327007AD00014851B /* EasyNotes-InfoPlist.strings */,
+				D43A1C91270073700014851B /* Localizable.strings */,
 				D43A1C5A26FCBC550014851B /* EasyNotes */,
 				D43A1C5926FCBC550014851B /* Products */,
+				ECF3A6B2E427BDCC2D13D15C /* Pods */,
+				D7A4411D270463AAA8A47EA2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,9 +82,15 @@
 		D43A1C5A26FCBC550014851B /* EasyNotes */ = {
 			isa = PBXGroup;
 			children = (
+				D4AA2C3227018B2F0055B60B /* Info.plist */,
+				D4AA2C332701E12F0055B60B /* InfoPlist.strings */,
+				D43A1C7826FCEEAF0014851B /* Models */,
+				D43A1C7326FCE3200014851B /* Services */,
+				D43A1C7026FCE10D0014851B /* View */,
 				D43A1C5B26FCBC550014851B /* EasyNotesApp.swift */,
-				D43A1C5D26FCBC550014851B /* ContentView.swift */,
+				D43A1C7726FCEE230014851B /* Helpers */,
 				D43A1C5F26FCBC560014851B /* Assets.xcassets */,
+				D43A1C6926FCC0A90014851B /* GoogleService-Info.plist */,
 				D43A1C6126FCBC560014851B /* Preview Content */,
 			);
 			path = EasyNotes;
@@ -67,6 +104,64 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		D43A1C7026FCE10D0014851B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D43A1C5D26FCBC550014851B /* ContentView.swift */,
+				D43A1C7126FCE1310014851B /* EditView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D43A1C7326FCE3200014851B /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				D43A1C7426FCE33B0014851B /* FirebaseService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		D43A1C7726FCEE230014851B /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				D45D9E3B270390F4006E1B6A /* TextView.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		D43A1C7826FCEEAF0014851B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D43A1C7926FCEEEB0014851B /* FirebaseModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D45D9EEE2703A1E0006E1B6A /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				D45D9EEF2703A1E0006E1B6A /* MarkupEditor-main */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		D7A4411D270463AAA8A47EA2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04A8DB80040882A2DC93A78E /* Pods_EasyNotes.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ECF3A6B2E427BDCC2D13D15C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				94649EF714A0E1F021FE36EE /* Pods-EasyNotes.debug.xcconfig */,
+				41DBB13E06980588658EC8DF /* Pods-EasyNotes.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,15 +169,21 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D43A1C6626FCBC560014851B /* Build configuration list for PBXNativeTarget "EasyNotes" */;
 			buildPhases = (
+				2B1AA7638D58FC80159057F2 /* [CP] Check Pods Manifest.lock */,
 				D43A1C5426FCBC550014851B /* Sources */,
 				D43A1C5526FCBC550014851B /* Frameworks */,
 				D43A1C5626FCBC550014851B /* Resources */,
+				D43A1C7626FCE77B0014851B /* ShellScript */,
+				F78496158848E6735B22E9CA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = EasyNotes;
+			packageProductDependencies = (
+				D45D9EF22703A374006E1B6A /* MarkupEditor */,
+			);
 			productName = EasyNotes;
 			productReference = D43A1C5826FCBC550014851B /* EasyNotes.app */;
 			productType = "com.apple.product-type.application";
@@ -109,6 +210,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ru,
 			);
 			mainGroup = D43A1C4F26FCBC550014851B;
 			productRefGroup = D43A1C5926FCBC550014851B /* Products */;
@@ -126,11 +228,77 @@
 			buildActionMask = 2147483647;
 			files = (
 				D43A1C6326FCBC560014851B /* Preview Assets.xcassets in Resources */,
+				D4AA2C352701E12F0055B60B /* InfoPlist.strings in Resources */,
+				D43A1C8F270073700014851B /* Localizable.strings in Resources */,
+				D43A1C9527007AD00014851B /* EasyNotes-InfoPlist.strings in Resources */,
 				D43A1C6026FCBC560014851B /* Assets.xcassets in Resources */,
+				D43A1C6A26FCC0A90014851B /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2B1AA7638D58FC80159057F2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EasyNotes-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D43A1C7626FCE77B0014851B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 12;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "
+";
+			showEnvVarsInLog = 0;
+		};
+		F78496158848E6735B22E9CA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EasyNotes/Pods-EasyNotes-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EasyNotes/Pods-EasyNotes-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EasyNotes/Pods-EasyNotes-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D43A1C5426FCBC550014851B /* Sources */ = {
@@ -139,16 +307,49 @@
 			files = (
 				D43A1C5E26FCBC550014851B /* ContentView.swift in Sources */,
 				D43A1C5C26FCBC550014851B /* EasyNotesApp.swift in Sources */,
+				D43A1C7526FCE33B0014851B /* FirebaseService.swift in Sources */,
+				D45D9E3C270390F4006E1B6A /* TextView.swift in Sources */,
+				D43A1C7226FCE1310014851B /* EditView.swift in Sources */,
+				D43A1C7A26FCEEEB0014851B /* FirebaseModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D43A1C91270073700014851B /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D43A1C90270073700014851B /* en */,
+				D43A1C92270073830014851B /* ru */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		D43A1C9327007AD00014851B /* EasyNotes-InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D43A1C9427007AD00014851B /* ru */,
+			);
+			name = "EasyNotes-InfoPlist.strings";
+			sourceTree = "<group>";
+		};
+		D4AA2C332701E12F0055B60B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4AA2C342701E12F0055B60B /* ru */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		D43A1C6426FCBC560014851B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -210,6 +411,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -263,6 +465,7 @@
 		};
 		D43A1C6726FCBC560014851B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94649EF714A0E1F021FE36EE /* Pods-EasyNotes.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -272,12 +475,14 @@
 				DEVELOPMENT_TEAM = KK52K32PD5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EasyNotes/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -287,12 +492,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		D43A1C6826FCBC560014851B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41DBB13E06980588658EC8DF /* Pods-EasyNotes.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,12 +508,14 @@
 				DEVELOPMENT_TEAM = KK52K32PD5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EasyNotes/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -317,7 +525,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -343,6 +551,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D45D9EF22703A374006E1B6A /* MarkupEditor */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = MarkupEditor;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D43A1C5026FCBC550014851B /* Project object */;
 }
