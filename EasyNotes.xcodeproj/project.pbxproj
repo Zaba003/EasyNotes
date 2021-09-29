@@ -18,8 +18,8 @@
 		D43A1C7A26FCEEEB0014851B /* FirebaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43A1C7926FCEEEB0014851B /* FirebaseModel.swift */; };
 		D43A1C8F270073700014851B /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D43A1C91270073700014851B /* Localizable.strings */; };
 		D43A1C9527007AD00014851B /* EasyNotes-InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D43A1C9327007AD00014851B /* EasyNotes-InfoPlist.strings */; };
-		D45D9E3C270390F4006E1B6A /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45D9E3B270390F4006E1B6A /* TextView.swift */; };
 		D45D9EF32703A374006E1B6A /* MarkupEditor in Frameworks */ = {isa = PBXBuildFile; productRef = D45D9EF22703A374006E1B6A /* MarkupEditor */; };
+		D45D9EF927048231006E1B6A /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45D9EF827048231006E1B6A /* TextView.swift */; };
 		D4AA2C352701E12F0055B60B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D4AA2C332701E12F0055B60B /* InfoPlist.strings */; };
 /* End PBXBuildFile section */
 
@@ -39,8 +39,8 @@
 		D43A1C90270073700014851B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		D43A1C92270073830014851B /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
 		D43A1C9427007AD00014851B /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = "ru.lproj/EasyNotes-InfoPlist.strings"; sourceTree = "<group>"; };
-		D45D9E3B270390F4006E1B6A /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
 		D45D9EEF2703A1E0006E1B6A /* MarkupEditor-main */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "MarkupEditor-main"; path = "EasyNotes/MarkupEditor-main"; sourceTree = "<group>"; };
+		D45D9EF827048231006E1B6A /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
 		D4AA2C3227018B2F0055B60B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		D4AA2C342701E12F0055B60B /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -124,7 +124,7 @@
 		D43A1C7726FCEE230014851B /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
-				D45D9E3B270390F4006E1B6A /* TextView.swift */,
+				D45D9EF827048231006E1B6A /* TextView.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -308,7 +308,7 @@
 				D43A1C5E26FCBC550014851B /* ContentView.swift in Sources */,
 				D43A1C5C26FCBC550014851B /* EasyNotesApp.swift in Sources */,
 				D43A1C7526FCE33B0014851B /* FirebaseService.swift in Sources */,
-				D45D9E3C270390F4006E1B6A /* TextView.swift in Sources */,
+				D45D9EF927048231006E1B6A /* TextView.swift in Sources */,
 				D43A1C7226FCE1310014851B /* EditView.swift in Sources */,
 				D43A1C7A26FCEEEB0014851B /* FirebaseModel.swift in Sources */,
 			);
